@@ -11,3 +11,9 @@ let wrapAdjective = function(style="*") {
     return `You are ${style}${adjective}${style}!`
   }
 }
+
+function razzle() {
+  console.log("You've been razzled!");
+}
+
+razzle();
